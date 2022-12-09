@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - Massege
  * return: o
  */
 int main(void)
