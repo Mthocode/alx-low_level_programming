@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Description: 'Print massege to standed out put'
- * return: Always 0 (Sucsess)
+ *
+ * return: Always o (Sucsess)
  */
 int main(void)
 {
