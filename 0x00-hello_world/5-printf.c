@@ -4,7 +4,7 @@
  *
  * Description: 'Print massege to standed out put'
  *
- * return: Always o (Sucsess)
+ * Return: Always o (Sucsess)
  */
 int main(void)
 {
