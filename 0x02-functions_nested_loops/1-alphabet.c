@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main - main block
+ * print_alphabet - tntry point
  * Discription: print alphabet in low case
  * Return: Always 0 .
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	/*char letter = 'a';
 
@@ -15,7 +15,7 @@ int main(void)
 		letter++;
 	}*/
 
-	print_alphabet('a');
+	print_alphabet();
 
 	_putchar('\n');
 
