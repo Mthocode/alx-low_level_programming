@@ -4,8 +4,6 @@
 
 #include <stdio.h>
 
-
-
 /**
  * main - Entry point
  * Discriptions: ditermon if a number is zero, negative or positive
@@ -17,9 +15,13 @@ int main(void)
 {
 
 	int n;
+
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
-	scanf("%d",&n);
+
+	scanf("%d", &n);
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
