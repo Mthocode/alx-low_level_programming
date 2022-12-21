@@ -12,7 +12,7 @@ void times_table(void)
 
 		while (num_2 < 10)
 		{
-			_putchar((char)num_2);
+			_putchar(num_2 + '0');
 			_putchar(',');
 			_putchar(' ');
 
