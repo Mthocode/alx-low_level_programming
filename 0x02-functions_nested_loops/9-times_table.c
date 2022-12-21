@@ -5,6 +5,7 @@
 void times_table(void)
 {
 	int num_1, num_2;
+	int multiplier;
 
 	for (num_1 = 0; num_1 < 10; num_1++)
 	{
@@ -12,7 +13,8 @@ void times_table(void)
 
 		while (num_2 < 10)
 		{
-			_putchar(num_2 + '0');
+			multiplier = num_1 * num_2;
+			_putchar(multiplier + '0');
 			_putchar(',');
 			_putchar(' ');
 
