@@ -19,13 +19,12 @@ void times_table(void)
 			{
 				if (num_2 != 9)
 				{
-					_putchar(multiplier + '0');
+					_putchar(multiplier + ' ');
 					_putchar(',');
-					_putchar(' ');
 					_putchar(' ');
 				}
 				else
-					_putchar(multiplier + '0');
+					_putchar(multiplier + ' ');
 			}
 			else
 			{
