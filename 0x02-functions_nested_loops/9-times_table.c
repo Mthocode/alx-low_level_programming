@@ -17,29 +17,17 @@ void times_table(void)
 
 			if (multiplier <= 9)
 			{
-				if (num_2 != 9)
-				{
-					_putchar(multiplier + ' ');
-					_putchar(',');
-					_putchar(' ');
-				}
-				else
-					_putchar(multiplier + ' ');
+				_putchar(multiplier + '0');
 			}
 			else
 			{
-				if (num_2 != 9)
-				{
-					_putchar((multiplier / 10) + '0');
-					_putchar((multiplier % 10) + '0');
-					_putchar(',');
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar((multiplier / 10) + '0');
-					_putchar((multiplier % 10) + '0');
-				}
+				_putchar((multiplier / 10) + '0');
+				_putchar((multiplier % 10) + '0');
+			}
+			if (num_2 != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
 			}
 
 			num_2++;
