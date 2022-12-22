@@ -7,6 +7,18 @@
  */
 void print_to_98(int n)
 {
+	int sumNum = 0;
+
+	if (n > 98)
+	{
+		while (sumNum < 13)
+		{
+			printf("%d", n);
+			sumNum++;
+		}
+		printf("%d", 98);
+	}
+
 	while (n <= 98)
 	{
 		if (n != 98)
