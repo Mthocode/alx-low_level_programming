@@ -17,6 +17,7 @@ void times_table(void)
 
 			if (multiplier <= 9)
 			{
+				_putchar(' ');
 				_putchar(multiplier + '0');
 			}
 			else
