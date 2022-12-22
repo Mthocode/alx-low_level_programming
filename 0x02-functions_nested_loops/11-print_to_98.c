@@ -18,19 +18,21 @@ void print_to_98(int n)
 		}
 		printf("%d", 98);
 	}
-
-	while (n <= 98)
+	else
 	{
-		if (n != 98)
+		while (n <= 98)
 		{
-			printf("%d", n);
-			printf(",");
-			printf(" ");
-		}
-		else
-			printf("%d", n);
+			if (n != 98)
+			{
+				printf("%d", n);
+				printf(",");
+				printf(" ");
+			}
+			else
+				printf("%d", n);
 
-		n++;
+			n++;
+		}
 	}
 	printf("\n");
 }
