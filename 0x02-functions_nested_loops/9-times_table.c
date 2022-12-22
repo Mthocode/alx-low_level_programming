@@ -15,7 +15,10 @@ void times_table(void)
 			prod = num_1 * num_2;
 
 			if (prod <= 9)
+			{
+				_putchar(' ');
 				_putchar(prod + '0');
+			}
 			else
 			{
 				_putchar((prod / 10) + '0');
