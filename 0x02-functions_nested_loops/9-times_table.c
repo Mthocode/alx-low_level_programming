@@ -8,9 +8,8 @@ void times_table(void)
 
 	for (num_1 = 0; num_1 <= 9; num_1++)
 	{
-		num_2 = 0;
-
-		while (num_2 <= 9)
+		
+		for (num_2 = 0; num_2 <= 9; num_2++)
 		{
 			prod = num_1 * num_2;
 
@@ -24,10 +23,11 @@ void times_table(void)
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
 			}
-			_putchar(',');
-			_putchar(' ');
-
-			num_2++;
+			if (num_2 != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
