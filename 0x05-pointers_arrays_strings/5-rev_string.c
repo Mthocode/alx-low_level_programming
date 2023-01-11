@@ -13,6 +13,10 @@ void rev_string(char *s)
 	while (s[c] != '\0')
 		c++;
 	for (i = 0; i < c; i++)
-		_putchar(s[c-1]);
-	_putchar('\n');
+	{
+		c--;
+		rv = s[i];
+		s[i] = s[c];
+		s[c] = rv;
+	}
 }
