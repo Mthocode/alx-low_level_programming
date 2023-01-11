@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * *_strcpy - copies the string pointed to by src, including the terminating null
+ * *_strcpy - copies the string pointed to by src,
+ * including the terminating null
  * @dest: first string
  * @src: second string
  * Return: char
@@ -16,5 +17,5 @@ char *_strcpy(char *dest, char *src)
 	}
 
 	*(dest + l) = '\0';
-	return(dest);
+	return (dest);
 }
