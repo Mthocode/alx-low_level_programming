@@ -5,7 +5,7 @@
  * @dest: first string
  * @src: second string
  * Return: char
- */ 
+ */
 char *_strcpy(char *dest, char *src)
 {
 	int l = 0;
